@@ -9,6 +9,11 @@
             string str = Console.ReadLine();                   // 입력한 문장을 str에 저장
             string str1 = Console.ReadLine();                  // 입력한 문자를 str1에 저장
             Console.WriteLine(str.IndexOf(str1, 0, str.Length)); // str에 저장된 문장중 str1의 처음 문자를 찾을 수 있음
+
+            //문자열을 입력받으면 단어의 갯수를 출력하기
+            Console.WriteLine("단어의 갯수를 알고 싶으면 문장을 입력하세요."); // 단어의 갯수를 알고 싶으면 문장을 입력하세요. 출력 (목적을 알기위함)
+            string str2 = Console.ReadLine();                                  // 입력한 문장을 str2에 저장
+            Console.WriteLine(str2.Length);                                    // str2에 입력된 단어의 갯수를 출력(띄어쓰기 포함)
         }
     }
 }
